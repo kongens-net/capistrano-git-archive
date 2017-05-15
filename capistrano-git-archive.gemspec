@@ -13,9 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/kongens-net/capistrano-git-archive'
   spec.license       = 'MIT'
 
-  spec.files         = ''
-  spec.executables   = ''
-  spec.test_files    = ''
   spec.require_paths = ['lib']
 
   spec.add_dependency 'capistrano', '>= 3.7.0', '< 4.0.0'
