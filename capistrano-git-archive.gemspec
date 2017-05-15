@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Mikkel Riber']
   spec.email         = ['riber@kongens.net']
   spec.description   = 'git archive deploy strategy for Capistrano.'
-  spec.summary       = 'git archive deploy strategy for Capistrano.'
+  spec.summary       = 'git archive deploy strategy'
   spec.homepage      = 'https://github.com/kongens-net/capistrano-git-archive'
   spec.license       = 'MIT'
 
@@ -19,7 +19,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'capistrano', '>= 3.7.0', '< 4.0.0'
-
-  spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake'
 end
